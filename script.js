@@ -3,7 +3,9 @@ var resultsDiv = document.getElementById('results');
 var submitButton = document.getElementById('submit');
 var startButton = document.getElementById('start');
 
-function 
+document.getElementById("quizQuestion1").addEventListener("click", function() {
+  draw();
+  });
 
 
 
